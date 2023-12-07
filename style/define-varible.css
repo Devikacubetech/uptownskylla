@@ -1,0 +1,58 @@
+.u-light-gray-bg {
+  background: var(--u_light_gray);
+}
+
+.u-text-gold-color {
+  color: var(--u_gold_color);
+}
+
+.u_light_text_color {
+  color: var(--u_light_text_color);
+}
+.u_base_text_color {
+  color: var(--u_base_color);
+}
+
+.u-light-black-text-color {
+  color: var(--u_light_black);
+}
+
+.u-light-pink-bg {
+  background: var(--u_light_pink );
+}
+
+.text-color-2 {
+  color: var(--text-color-2);
+}
+
+.gold-bg {
+  background: var(--u_gold_color);
+}
+
+.text-color-3 {
+  color: var(--text-color-3);
+}
+
+.base-bg {
+  background: var(--u_base_color);
+}
+
+.very-light-text {
+  color: var(--very-light-text);
+}
+
+.light-black {
+  color: var(--u_light_black );
+}
+.active-gold-color:hover {
+  color: var(--u_gold_color);
+}
+
+.light-slaty-bg {
+  background: var(--border-color-light-gray);
+}
+
+.very-light-bg-color {
+  background: var(--very-light-bg-color);
+}
+

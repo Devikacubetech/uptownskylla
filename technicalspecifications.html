@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Uptown Skylla</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="style/customiz-slider.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+      type="text/css"
+      media="screen"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/intlTelInput.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style/base.css" />
+    <link rel="stylesheet" href="style/define-varible.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/varible.css" />
+    <link rel="stylesheet" href="style/common.css" />
+    <link rel="stylesheet" href="style/flats.css" />
+    <link rel="stylesheet" href="style/media.css" />
+    <link rel="stylesheet" href="style/customiz-tabs.css" />
+  </head>
+
+  <body>
+    <div class="side-icons-div position-fixed end-0 d-flex align-items-center flex-column">
+      <div
+        class="rounded-circle side-icons position-relative mb-2 d-lg-block d-none"
+        data-bs-toggle="modal"
+        data-bs-target="#enquiry"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+        data-aos="fade-left"
+      >
+        <img src="/images/enquiry.png" alt="" class="img-fluid cursor-pointer" width="45px" height="45px" />
+        <div
+          class="position-absolute side-icons-text fs-12 raleWay text-uppercase ps-4 pe-5 bg-white py-2 text-nowrap fw-600 u-light-black-text-color"
+        >
+          Book a site visit
+        </div>
+      </div>
+      <div
+        class="rounded-circle side-icons position-relative mb-2 d-lg-block d-none"
+        data-aos-delay="300"
+        data-aos-duration="1000"
+        data-aos="fade-left"
+      >
+        <a
+          href="https://web.whatsapp.com/send?phone=+917009247378&text=Hi%21+I%27m+Interested+In++%2AUptown+Skylla+Project%2A.+Please+Share+More+Details."
+          target="_blank"
+        >
+          <img src="/images/whatapp.png" alt="" class="img-fluid cursor-pointer" width="45px" height="45px" />
+        </a>
+
+        <div class="position-absolute side-icons-text ps-4 pe-5 bg-white py-2 text-nowrap">
+          <a
+            href="https://web.whatsapp.com/send?phone=+917009247378&text=Hi%21+I%27m+Interested+In++%2AUptown+Skylla+Project%2A.+Please+Share+More+Details."
+            target="_blank"
+            class="fs-12 raleWay text-uppercase fw-600 u-light-black-text-color"
+          >
+            whats app</a
+          >
+        </div>
+      </div>
+      <div
+        class="rounded-circle side-icons position-relative mb-2"
+        data-aos-delay="500"
+        data-aos-duration="1000"
+        data-aos="fade-left"
+      >
+        <a href="gallery.html" target="_blank">
+          <img src="/images/Walkthrough.png" alt="" class="img-fluid cursor-pointer" width="45px" height="45px" />
+        </a>
+
+        <div class="position-absolute side-icons-text ps-4 pe-5 bg-white py-2 text-nowrap">
+          <a href="gallery.html" target="_blank" class="fs-12 raleWay text-uppercase fw-600 u-light-black-text-color">
+            walkthrough</a
+          >
+        </div>
+      </div>
+      <div
+        class="rounded-circle side-icons position-relative mb-2"
+        data-aos-delay="700"
+        data-aos-duration="1000"
+        data-aos="fade-left"
+      >
+        <a href="pricelist.html" target="_blank">
+          <img
+            src="/images/rupee.jpg"
+            alt=""
+            class="img-fluid cursor-pointer rounded-circle"
+            width="45px"
+            height="45px"
+          />
+        </a>
+
+        <div class="position-absolute side-icons-text ps-4 pe-5 bg-white py-2 text-nowrap">
+          <a href="pricelist.html" target="_blank" class="fs-12 raleWay text-uppercase fw-600 u-light-black-text-color">
+            price list</a
+          >
+        </div>
+      </div>
+      <div
+        class="rounded-circle side-icons position-relative mb-2"
+        data-aos-delay="900"
+        data-aos-duration="1000"
+        data-aos="fade-left"
+      >
+        <img
+          src="/images/Download.png"
+          alt=""
+          class="img-fluid cursor-pointer rounded-circle"
+          width="45px"
+          height="45px"
+          data-bs-toggle="modal"
+          data-bs-target="#brochure"
+        />
+
+        <div
+          class="position-absolute side-icons-text ps-4 pe-5 bg-white py-2 text-nowrap"
+          data-bs-toggle="modal"
+          data-bs-target="#brochure"
+        >
+          <span class="fs-12 raleWay text-uppercase fw-600 u-light-black-text-color cursor-pointer"
+            >download Brochure</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade brochure-modal" id="brochure" tabindex="-1" aria-labelledby="brochure" aria-hidden="false">
+      <div class="modal-dialog">
+        <div class="modal-content rounded-0 border-0">
+          <div class="modal-header border-0">
+            <h1 class="modal-title fs-24 u_base_text_color text-center w-100" id="brochure">Download Brochure</h1>
+            <button type="button" class="btn-close fs-11" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body border-top">
+            <p class="fs-15 u-light-black-text-color text-start">
+              Feel free to contact us if you need any assistance, any help or another question.
+            </p>
+            <form action="">
+              <input type="text" name="" id="" placeholder="Name" class="w-100 brochure-input fs-14 mb-3" mb-2 />
+              <input type="email" placeholder="Email" class="w-100 brochure-input fs-15 mb-3" />
+              <input type="tel" id="phone1" name="phone" class="w-100 country-select-input fs-15 mb-3" />
+              <textarea
+                name=""
+                id=""
+                placeholder="Message"
+                rows="5"
+                class="w-100 brochure-input brochure-textarea fs-15 mb-3"
+              ></textarea>
+              <div class="text-start">
+                <button
+                  type="submit"
+                  title="Send"
+                  class="fs-11 text-white gold-bg border-0 p-3 rounded-1 fw-700 text-uppercase letter-spacing-3 contact-send-btn"
+                >
+                  <span class="px-3">Send</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade brochure-modal" id="enquiry" tabindex="-1" aria-labelledby="enquiry" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content rounded-0 border-0">
+          <div class="modal-header border-0">
+            <h1 class="modal-title fs-24 u_base_text_color text-center w-100" id="brochure">Enquiry Now</h1>
+            <button type="button" class="btn-close fs-11" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body border-top">
+            <p class="fs-15 u-light-black-text-color text-start">
+              Feel free to contact us if you need any assistance, any help or another question.
+            </p>
+            <form action="">
+              <input type="text" name="" id="" placeholder="Name" class="w-100 brochure-input fs-14 mb-3" mb-2 />
+              <input type="email" placeholder="Email" class="w-100 brochure-input fs-15 mb-3" />
+              <input type="tel" id="phone2" name="phone" class="w-100 country-select-input fs-15 mb-3" />
+              <textarea
+                name=""
+                id=""
+                placeholder="Message"
+                rows="5"
+                class="w-100 brochure-input brochure-textarea fs-15 mb-3"
+              ></textarea>
+              <div class="text-start">
+                <button
+                  type="submit"
+                  title="Send"
+                  class="fs-11 text-white gold-bg border-0 p-3 rounded-1 fw-700 text-uppercase letter-spacing-3 contact-send-btn"
+                >
+                  <span class="px-3">Send</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="uptown_navbar position-absolute w-100">
+      <div class="d-lg-none uptown_offcanvas">
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel"
+        >
+          <button
+            type="button"
+            class="btn-close offcanvas-close-btn position-fixed end-0"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+          <div class="position-absolute w-100 h-100 bg-white second-offcanvas">
+            <div class="why-choose-us-content">
+              <div class="py-3 text-center" style="background: #0000001a">
+                <i class="fa-solid fa-arrow-left u-light-black-text-color navbar-back-arrows"></i>
+              </div>
+              <div class="text-center border-bottom py-3">
+                <span class="fs-15">
+                  <a href="whychooseus.html">Why choose us</a>
+                </span>
+              </div>
+            </div>
+            <div class="floor-plan-content">
+              <div class="py-3 text-center" style="background: #0000001a">
+                <i class="fa-solid fa-arrow-left u-light-black-text-color navbar-back-arrows"></i>
+              </div>
+              <ul class="m-0 p-0 list-unstyled">
+                <li class="border-bottom p-3 fs-15 u-light-black-text-color">
+                  <a href="bhk2.html">2 BHK Flats</a>
+                </li>
+                <li class="border-bottom p-3 fs-15 u-light-black-text-color">
+                  <a href="bhkexecutive3.html">3 BHK Executive</a>
+                </li>
+                <li class="border-bottom p-3 fs-15 u-light-black-text-color">
+                  <a href="bhkpremium3.html">3 BHK Premium</a>
+                </li>
+                <li class="border-bottom p-3 fs-15 u-light-black-text-color">
+                  <a href="bhkgrande3.html">3 BHK Grande</a>
+                </li>
+                <li class="border-bottom p-3 fs-15 u-light-black-text-color">
+                  <a href="bhkservantroom3.html">3BHK + SERVANT ROOM</a>
+                </li>
+                <li class="border-bottom p-3 fs-15 u-light-black-text-color">
+                  <a href="bhkservantroom4.html">4 BHK + SERVANT ROOM</a>
+                </li>
+                <li class="border-bottom p-3 fs-15 u-light-black-text-color">
+                  <a href="technicalspecifications.html" class="active-page">Technical Specifications</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="offcanvas-body uptown_offcanvas p-0">
+            <ul type="none" class="m-0 p-0">
+              <li>
+                <div class="d-flex justify-content-between u_light_text_color">
+                  <div class="offcanvas-details-tab w-100">
+                    <a href="index.html">Home</a>
+                  </div>
+                  <div class="d-flex align-items-center offcanvas-details-arrow px-3">
+                    <i class="fa-solid fa-chevron-right navbar-forwards-arrows"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="offcanvas-li">
+                <a href="location.html"> Location </a>
+              </li>
+              <li class="offcanvas-li">
+                <a href="siteplan.html">Site Plan</a>
+              </li>
+              <li>
+                <div class="d-flex justify-content-between u_light_text_color">
+                  <div class="offcanvas-details-tab w-100">
+                    <a href="index.html/#our-offering">Floor Plan</a>
+                  </div>
+                  <div class="d-flex align-items-center offcanvas-details-arrow px-3">
+                    <i class="fa-solid fa-chevron-right navbar-forwards-arrows"></i>
+                  </div>
+                </div>
+              </li>
+              <li class="offcanvas-li">
+                <a href="clubskylla.html"> Club Skylla</a>
+              </li>
+              <li class="offcanvas-li">
+                <a href="pricelist.html">Price List</a>
+              </li>
+              <li class="offcanvas-li">
+                <a href="gallery.html">Gallery</a>
+              </li>
+              <li class="offcanvas-li">
+                <a href="compliances.html">Compliances</a>
+              </li>
+              <li class="offcanvas-li">
+                <a href="contact.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <nav class="p-0 navbar navbar-expand-lg navbar-light">
+        <div
+          class="d-flex d-lg-none justify-content-between w-100 border-bottom border-1 border-white responsive_navbar"
+        >
+          <div>
+            <a href="index.html" class="logo-image navbar-brand"><img src="images/logo.png" /></a>
+          </div>
+          <div class="d-lg-none d-flex align-items-center">
+            <i
+              class="fa-solid fa-bars text-white fs-2"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample"
+              aria-controls="offcanvasExample"
+            ></i>
+          </div>
+        </div>
+        <div class="align-items-stretch d-lg-flex d-none container">
+          <a href="index.html" class="logo-image ps-2 navbar-brand"><img src="images/logo.png" /></a>
+          <nav class="p-0 navbar navbar-expand navbar-light">
+            <div class="ms-auto h-100 navbar-nav">
+              <ul type="none" class="m-0 p-0 h-100 pt-2 navbar-tabs d-flex">
+                <li class="px-xl-2 mx-lg-1 d-flex align-items-center res-fs-14 px-1 position-relative nav-tab-hover">
+                  <ul type="none" class="position-absolute top-100 bg-white tab-hover-card text-center">
+                    <li>
+                      <a href="whychooseus.html" class="fs-14"><span class="why-choose-us-span">Why Choose Us</span></a>
+                    </li>
+                  </ul>
+                  <a class="fs-17 fw-600 text-white" href="index.html"
+                    >Home<svg
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fas"
+                      data-icon="chevron-down"
+                      class="svg-inline--fa fa-chevron-down ms-1"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      width="10"
+                      height="10"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                      ></path></svg
+                  ></a>
+                </li>
+                <li class="px-xl-2 mx-lg-1 d-flex align-items-center res-fs-14 px-1">
+                  <a class="fs-17 fw-600 text-white" href="location.html">Location</a>
+                </li>
+                <li class="px-xl-2 mx-lg-1 d-flex align-items-center res-fs-14 px-1">
+                  <a class="fs-17 fw-600 text-white" href="siteplan.html">Site Plan</a>
+                </li>
+                <li class="px-xl-2 mx-lg-1 d-flex align-items-center res-fs-14 px-1 active-link nav-tab-hover">
+                  <a class="fs-17 fw-600 text-white" href="index.html"
+                    >Floor Plan<svg
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fas"
+                      data-icon="chevron-down"
+                      class="svg-inline--fa fa-chevron-down ms-1"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      width="10"
+                      height="10"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+                      ></path>
+                    </svg>
+                    <ul type="none" class="position-absolute top-100 bg-white tab-hover-card text-center ps-5 py-3">
+                      <li class="position-relative text-start py-2">
+                        <a href="bhk2.html" class="fs-13 fw-400 text-uppercase"><span>2 BHK Flats </span></a>
+                      </li>
+                      <li class="position-relative text-start py-2">
+                        <a href="bhkexecutive3.html" class="fs-13 fw-400 text-uppercase"
+                          ><span>3 BHK Executive </span></a
+                        >
+                      </li>
+                      <li class="position-relative text-start py-2">
+                        <a href="bhkpremium3.html" class="fs-13 fw-400 text-uppercase"><span>3 BHK Premium </span></a>
+                      </li>
+                      <li class="position-relative text-start py-2">
+                        <a href="bhkgrande3.html" class="fs-13 fw-400 text-uppercase"><span>3 BHK Grande </span></a>
+                      </li>
+                      <li class="position-relative text-start py-2">
+                        <a href="bhkservantroom3.html" class="fs-13 fw-400 text-uppercase"
+                          ><span>3BHK + SERVANT ROOM</span></a
+                        >
+                      </li>
+                      <li class="position-relative text-start py-2">
+                        <a href="bhkservantroom4.html" class="fs-13 fw-400 text-uppercase"
+                          ><span>4 BHK + SERVANT ROOM</span></a
+                        >
+                      </li>
+                      <li class="position-relative text-start py-2">
+                        <a href="technicalspecifications.html" class="fs-13 fw-400 text-uppercase"
+                          ><span class="active-page">Technical Specifications</span></a
+                        >
+                      </li>
+                    </ul>
+                  </a>
+                </li>
+                <li class="px-xl-2 mx-lg-1 d-flex align-items-center res-fs-14 px-1">
+                  <a class="fs-17 fw-600 text-white" href="clubskylla.html">Club Skylla</a>
+                </li>
+                <li class="px-xl-2 mx-lg-1 d-flex align-items-center res-fs-14 px-1">
+                  <a class="fs-17 fw-600 text-white" href="pricelist.html">Price List</a>
+                </li>
+                <li class="px-xl-2 mx-lg-1 d-flex align-items-center res-fs-14 px-1">
+                  <a class="fs-17 fw-600 text-white" href="gallery.html">Gallery</a>
+                </li>
+                <li class="px-xl-2 mx-lg-1 d-flex align-items-center res-fs-14 px-1">
+                  <a class="fs-17 fw-600 text-white" href="compliances.html">Compliances</a>
+                </li>
+                <li class="px-xl-2 mx-lg-1 d-flex align-items-center res-fs-14 px-1">
+                  <a class="fs-17 fw-600 text-white" href="contact.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </nav>
+    </section>
+
+    <section class="common-header technicalspecifications-header d-flex align-items-center justify-content-center">
+      <div>
+        <h1
+          class="text-white fs-60 dm-sans-sarif mb-20 res-fs-40 active-page text-center"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos="fade-down"
+        >
+          Technical Specifications
+        </h1>
+        <div class="d-flex justify-content-center">
+          <div class="d-flex">
+            <div class="fs-15 home-page-address">
+              <a href="index.html">VISIT WEBSITE <i class="fa-solid fa-arrow-right fw-100"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="technical-mid-section py-70">
+      <div class="container">
+        <div class="overflow-x-auto" data-aos-delay="100" data-aos-duration="1000" data-aos="fade-up">
+          <table class="w-100 light-slaty-bg mb-50 border-secondary-subtle border">
+            <tr>
+              <td class="border-end border-secondary-subtle p-3">
+                <h4 class="fs-18 raleWay m-0 u_base_text_color fw-600 text-nowrap">STRUCTURE</h4>
+              </td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">
+                aminated RCC earthquake resistant frame structure, vetted from IIT Roorkee
+              </td>
+            </tr>
+          </table>
+        </div>
+        <h4
+          class="fs-18 raleWay u_base_text_color fw-600 mb-50 text-nowrap"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos="fade-up"
+        >
+          LIVING/DINNING
+        </h4>
+        <div class="overflow-x-auto" data-aos-delay="100" data-aos-duration="1000" data-aos="fade-up">
+          <table class="w-100 border-secondary-subtle border mb-50 over">
+            <tr class="light-slaty-bg">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">Doors</td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">Laminated Flush Doors/Skin Doors</td>
+            </tr>
+            <tr class="very-light-bg-color">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">Flooring</td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">Vitrified Tiles</td>
+            </tr>
+            <tr class="light-slaty-bg">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">Walls</td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">Acrylic Emulsion Paint Finish</td>
+            </tr>
+            <tr class="very-light-bg-color">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">
+                External Windows/Glazing
+              </td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">UPVC With Toughened Reflective Glass</td>
+            </tr>
+            <tr class="light-slaty-bg">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">Switches</td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">Modular</td>
+            </tr>
+            <tr class="very-light-bg-color">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">Others</td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">Provision for Split AC & DTH</td>
+            </tr>
+          </table>
+        </div>
+        <h4
+          class="fs-18 raleWay u_base_text_color fw-600 mb-50 text-nowrap"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos="fade-up"
+        >
+          WASHROOM
+        </h4>
+        <div class="overflow-x-auto" data-aos-delay="100" data-aos-duration="1000" data-aos="fade-up">
+          <table
+            class="w-100 border-secondary-subtle border mb-50"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos="fade-up"
+          >
+            <tr class="light-slaty-bg">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">Doors</td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">Laminated Flush Doors/Skin Doors</td>
+            </tr>
+            <tr class="very-light-bg-color">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">Flooring</td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">
+                Vitrified Tiles/Anti Skid Tiles of Premium Quality
+              </td>
+            </tr>
+            <tr class="light-slaty-bg">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">Walls</td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">Premium Tiles till Ceiling Height</td>
+            </tr>
+            <tr class="very-light-bg-color">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">
+                CP Fittings & China Ware
+              </td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">Jaquar / Kohler or equivalent</td>
+            </tr>
+            <tr class="very-light-bg-color">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">Others</td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">
+                Granite Counter on RCC Slab, Exhaust Fan & Provision for Geyser
+              </td>
+            </tr>
+          </table>
+        </div>
+        <h4
+          class="fs-18 raleWay u_base_text_color fw-600 mb-50 text-nowrap"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos="fade-up"
+        >
+          MODULAR KITCHEN
+        </h4>
+        <div class="overflow-x-auto" data-aos-delay="100" data-aos-duration="1000" data-aos="fade-up">
+          <table class="w-100 border-secondary-subtle border mb-50">
+            <tr class="light-slaty-bg">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">Doors</td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">Premium Quality Vitrified Tiles</td>
+            </tr>
+            <tr class="very-light-bg-color">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">Flooring</td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">Premium Quality Tiles 2 Ft. Above Counter</td>
+            </tr>
+            <tr class="light-slaty-bg">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">Walls</td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">Premium Tiles till Ceiling Height</td>
+            </tr>
+            <tr class="very-light-bg-color">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">Wardrobes</td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">UPVC With Toughened Reflective Glass</td>
+            </tr>
+            <tr class="light-slaty-bg">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">
+                External Windows/Glazing
+              </td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">
+                Granite Counter on RCC Slab, Exhaust Fan & Provision For Geyser
+              </td>
+            </tr>
+          </table>
+        </div>
+        <h4
+          class="fs-18 raleWay u_base_text_color fw-600 mb-50 text-nowrap"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos="fade-up"
+        >
+          STAIRCASE / COMMON CORRIDORS
+        </h4>
+        <div class="overflow-x-auto" data-aos-delay="100" data-aos-duration="1000" data-aos="fade-up">
+          <table class="w-100 border-secondary-subtle border mb-50">
+            <tr class="light-slaty-bg">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">Walls</td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">Acrylic Emulsion</td>
+            </tr>
+            <tr class="very-light-bg-color">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">Flooring</td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">Granite / Absolute through body tiles</td>
+            </tr>
+            <tr class="light-slaty-bg">
+              <td class="fs-15 u_base_text_color border-end border-secondary-subtle p-3 text-nowrap">Others</td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">MS Railing</td>
+            </tr>
+          </table>
+        </div>
+        <div class="overflow-x-auto" data-aos-delay="100" data-aos-duration="1000" data-aos="fade-up">
+          <table class="w-100 light-slaty-bg mb-50 border-secondary-subtle border">
+            <tr>
+              <td class="border-end border-secondary-subtle p-3">
+                <h4 class="fs-18 raleWay m-0 u_base_text_color fw-600 text-nowrap">LIFTS</h4>
+              </td>
+              <td class="fs-15 u-light-black-text-color p-3 text-nowrap">
+                2 Hi-Speed Lifts in each tower. 8 Passenger & 13 Passenger Capacity
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="download-brochure-btn-div text-center mb-50"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      data-aos="fade-up"
+    >
+      <div class="modal fade brochure-modal" id="brochure" tabindex="-1" aria-labelledby="brochure" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content rounded-0 border-0">
+            <div class="modal-header border-0">
+              <h1 class="modal-title fs-24 u_base_text_color text-center w-100" id="brochure">Download Brochure</h1>
+              <button type="button" class="btn-close fs-11" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body border-top">
+              <p class="fs-15 u-light-black-text-color text-start">
+                Feel free to contact us if you need any assistance, any help or another question.
+              </p>
+              <form action="">
+                <input type="text" name="" id="" placeholder="Name" class="w-100 brochure-input fs-14 mb-3" mb-2 />
+                <input type="email" placeholder="Email" class="w-100 brochure-input fs-15 mb-3" />
+                <div class="d-flex brochure-dropdown mb-3 position-relative">
+                  <div class="dropdown position-static">
+                    <button
+                      class="border-0 btn dropdown-toggle text-start p-0 fs-14 u-light-black-text-color"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      +354
+                    </button>
+                    <ul class="dropdown-menu w-100 top-100 position-absolute">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <input type="number" placeholder="Phone Number" class="fs-15 h-100 w-100 border-0" />
+                  </div>
+                </div>
+                <textarea
+                  name=""
+                  id=""
+                  placeholder="Message"
+                  rows="5"
+                  class="w-100 brochure-input brochure-textarea fs-15 mb-3"
+                ></textarea>
+                <div class="text-start">
+                  <button
+                    type="submit"
+                    title="Send"
+                    class="fs-11 text-white gold-bg border-0 p-3 rounded-1 fw-700 text-uppercase letter-spacing-3 contact-send-btn"
+                  >
+                    <span class="px-3">Send</span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="download-brochure-btn text-white fs-23 border-0 my-30 fs-15 res-fs-16"
+        data-bs-toggle="modal"
+        data-bs-target="#brochure"
+      >
+        Download Brochure
+      </button>
+    </section>
+
+    <section class="uptown-skylla-footer text-white" data-aos-delay="100" data-aos-duration="1000" data-aos="fade-up">
+      <div class="footer-background-image pb-3">
+        <div class="container">
+          <div class="footer-top-part">
+            <div class="row">
+              <div class="col mb-5">
+                <h2 class="get-in-touch"><span class="raleway fw-700 fs-42 res-fs-40">Get in touch</span></h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="px-lg-3">
+                  <p class="fs-13 fw-700 text-uppercase">PHONE</p>
+                  <p class="fw-400 fs-24"><a href="tel:+91 95177-70032" class="letter-spacing-1">+91 95177-70032</a></p>
+                  <p class="fs-16 fw-600 raleway">
+                    <a href="https://uptownskylla.in/"
+                      >PR-7, Chandigarh International Airport Road, Zirakpur, Mohali,Punjab 140603
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <p class="fs-13 fw-700 text-uppercase text-white">EMAIL</p>
+                <p class="text-white fw-600"><a href="mailto:info@uptownskylla.in">info@uptownskylla.in</a></p>
+                <p class="text-white fw-700 fs-13 raleway">FOLLOW US</p>
+                <div class="d-flex">
+                  <a href="https://www.facebook.com/UptownSkyllaIND/" target="_blank">
+                    <i class="fa-brands fa-facebook cursor-pointer follow-us-icons me-3 pe-1"></i>
+                  </a>
+                  <a href="https://www.instagram.com/UptownSkylla_IND/" target="_blank">
+                    <i class="fa-brands fa-instagram cursor-pointer follow-us-icons me-3 pe-1"></i> </a
+                  ><a href="https://twitter.com/UptownSkyllaIND" target="_blank">
+                    <i class="fa-brands fa-twitter cursor-pointer follow-us-icons me-3 pe-1"></i>
+                  </a>
+                  <a href="https://in.pinterest.com/UptownSkyllaIND/" target="_blank">
+                    <i class="fa-brands fa-pinterest cursor-pointer follow-us-icons me-3 pe-1"></i
+                  ></a>
+                  <a href="https://www.youtube.com/channel/UCFKkNSk3Th1LUAbi-L4kqWg" target="_blank">
+                    <i class="fa-brands fa-youtube cursor-pointer follow-us-icons"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <p class="fs-13 fw-700 text-uppercase">RERA NO:</p>
+                <p class="fw-600 fs-17 mb-2">PBRERA-SAS79-PR0546</p>
+                <p class="fw-600 fs-17">A project by : ARTIQUE INFRATECH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-part">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="pe-5">
+                <h2 class="raleway fs-17 u-text-gold-color letter-spacing-4 fw-600 mb-20">ABOUT US</h2>
+                <p class="lh-29">
+                  Uptown Skylla™️ offering Luxury 2/3/4 BHK Possession Ready Fats in Zirakpur with an Ultra Luxury
+                  Amenities &amp; 5 Star Rated Club House.#1 Construction Quality.IGBC Gold Pre Certified
+                  Project.Possession Aug-23. Know More …
+                </p>
+              </div>
+            </div>
+            <div class="mt-3 mt-lg-0 col-lg-3">
+              <h2 class="raleway fs-17 u-text-gold-color letter-spacing-4 fw-600 mb-20">USEFUL LINKS</h2>
+              <div class="row">
+                <div class="col-6 col">
+                  <ul type="none" class="m-0 p-0">
+                    <li class="py-2 fs-15 fw-600"><a href="index.html">Home</a></li>
+                    <li class="py-2 fs-15 fw-600"><a href="location.html">Loaction</a></li>
+                    <li class="py-2 fs-15 fw-600"><a href="clubskylla.html">Club Skylla</a></li>
+                    <li class="py-2 fs-15 fw-600"><a href="gallery.html">Gallery</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col">
+                  <ul type="none" class="m-0 p-0">
+                    <li class="py-2 fs-15 fw-600"><a href="whychooseus.html">Why Choose us</a></li>
+                    <li class="py-2 fs-15 fw-600"><a href="siteplan.html">Site Plan</a></li>
+                    <li class="py-2 fs-15 fw-600"><a href="pricelist.html">Price List</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="mt-3 mt-lg-0 col-lg-3 col-sm-6">
+              <h2 class="raleway fs-17 u-text-gold-color letter-spacing-4 fw-600 mb-20">FLOOR PLAN</h2>
+              <ul type="none" class="m-0 p-0">
+                <li class="py-2 fs-15 fw-600"><a href="bhk2.html">2 BHK Flats</a></li>
+                <li class="py-2 fs-15 fw-600"><a href="bhkexecutive3.html">3 BHK Executive</a></li>
+                <li class="py-2 fs-15 fw-600"><a href="bhkpremium3.html">3 BHK Premium</a></li>
+                <li class="py-2 fs-15 fw-600"><a href="bhkgrande3.html">3 BHK Grande</a></li>
+                <li class="py-2 fs-15 fw-600"><a href="bhkservantroom3.html">3BHK + SERVANT ROOM</a></li>
+                <li class="py-2 fs-15 fw-600"><a href="bhkservantroom4.html">4 BHK + SERVANT ROOM</a></li>
+              </ul>
+            </div>
+            <div class="mt-3 mt-lg-0 col-lg-3 col-sm-6">
+              <h2 class="raleway fs-17 u-text-gold-color letter-spacing-4 fw-600 mb-20">CONTACT US</h2>
+              <ul type="none" class="m-0 p-0">
+                <li class="py-2 fs-15 fw-600">
+                  <div class="d-flex">
+                    <div class="d-flex align-items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="location-dot"
+                        class="svg-inline--fa fa-location-dot me-2"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"
+                        width="20"
+                        height="20"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <span><a href="#">PR-7,Chandigarh International Airport Road, Zirakpur, Punjab 140603</a></span>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2 fs-15 fw-600">
+                  <div class="d-flex">
+                    <div class="d-flex align-items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="phone"
+                        class="svg-inline--fa fa-phone me-2"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                        width="20"
+                        height="20"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <span><a href="tel:+91 95177-70031">+91 95177-70031</a></span>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2 fs-15 fw-600">
+                  <div class="d-flex">
+                    <div class="d-flex align-items-center">
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="fas"
+                        data-icon="envelope"
+                        class="svg-inline--fa fa-envelope me-2"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"
+                        width="20"
+                        height="20"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <span><a href="tel:+91 95177-70031">info@uptownskylla.in</a></span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="mt-5 text-center raleway fw-600 fs-14 pb-4 col-lg-12">
+              <span
+                ><a href="terms.html">Privacy Policy </a>| <a href="terms.html">Terms &amp; Conditions </a>| Copyright ©
+                2022 UPTOWNSKYLLA. All Right Reserved</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="responsive-bottom-contact position-fixed d-lg-none base-bg bottom-0 w-100 d-flex">
+      <div class="col-4 text-center text-white border-end py-2">
+        <a href="tel:+919517770032">
+          <i class="fa-solid fa-phone me-1"></i>
+          <span>Call</span>
+        </a>
+      </div>
+      <div class="col-4 text-center text-white py-2 border-end" data-bs-toggle="modal" data-bs-target="#enquiry">
+        <i class="fa-solid fa-envelope me-1"></i>
+        <span>Enquire</span>
+      </div>
+      <div class="col-4 text-center text-white py-2">
+        <a
+          href="https://web.whatsapp.com/send?phone=+917009247378&text=Hi%21+I%27m+Interested+In++%2AUptown+Skylla+Project%2A.+Please+Share+More+Details."
+          target="_blank"
+        >
+          <img src="/images/whatsapp.png" alt="" width="16px" height="16px" class="me-1" />
+          <span> WhatsApp </span>
+        </a>
+      </div>
+    </section>
+
+    <section class="bottom-to-top">
+      <button class="bottom-to-top-btn rounded-1 position-fixed border-0 text-white px-3 py-3">
+        <i class="fa-solid fa-chevron-up"></i>
+      </button>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+    ></script>
+
+    <script>
+      AOS.init();
+      var tablinks = document.getElementsByClassName('tab-links');
+      var tabcontents = document.getElementsByClassName('tab-contents');
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove('active-link');
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove('active-tab');
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add('active-tab');
+      }
+    </script>
+
+    <script src="/javascript/index.js"></script>
+    <script src="/javascript/tabs.js"></script>
+  </body>
+</html>

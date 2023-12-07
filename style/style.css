@@ -1,0 +1,525 @@
+.uptown_navbar {
+  z-index: 9;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+.uptown_navbar .logo-image img {
+  max-width: 110px;
+  max-height: 135px;
+}
+
+.uptown_navbar .active-link {
+  border-top: 3px solid var(--u_gold_color) !important;
+}
+
+.uptown_navbar .active-link a {
+  color: var(--u_gold_color) !important;
+}
+
+.uptown_navbar .navbar-tabs>li {
+  border-top: 3px solid transparent;
+}
+
+.uptown_navbar .navbar-tabs>li:hover {
+  border-top: 3px solid var(--u_gold_color) !important;
+}
+
+.uptown_navbar .navbar-tabs>li:hover>a {
+  color: var(--u_gold_color) !important;
+}
+
+.uptown_navbar .tab-hover-card {
+  padding: 25px 0px;
+  min-width: 500px;
+  min-width: 250px;
+  display: none;
+}
+
+.nav-tab-hover:hover .tab-hover-card {
+  display: block;
+}
+
+.uptown_navbar .nav-tab-hover:hover .tab-hover-card li a {
+  color: var(--u_light_black) !important;
+  transition: 0.3s;
+}
+
+.uptown_navbar .nav-tab-hover:hover .tab-hover-card li a span::before {
+  width: 10px;
+  height: 2px;
+  background: var(--u_gold_color);
+  content: '';
+  position: absolute;
+  left: -15%;
+  top: 50%;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.uptown_navbar .nav-tab-hover:hover .tab-hover-card li a .why-choose-us-span::before {
+  left: 19% !important;
+}
+
+.uptown_navbar .nav-tab-hover:hover .tab-hover-card li a:hover {
+  color: var(--u_gold_color) !important;
+}
+
+.uptown_navbar .nav-tab-hover:hover .tab-hover-card li a:hover span::before {
+  opacity: 1;
+  left: -10%;
+}
+
+.uptown_header_slider .header_slider_box {
+  padding-top: 300px;
+  background-size: cover;
+}
+
+.stickyDiv {
+  background: var(--u_base_color);
+  position: sticky !important;
+  top: 0;
+  z-index: 99;
+  animation: fadeInAnimation ease 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.header-slider-text {
+  margin-bottom: 100px;
+}
+
+.header-call-us-now {
+  margin-top: 100px;
+}
+
+
+.uptown_header_slider .header_slider_box1 {
+  background: url('../images/header_slider.jpg');
+  background-size: cover;
+}
+
+.uptown_header_slider .header_slider_box2 {
+  background: url('../images/header-slider-img2.jpg');
+  background-size: cover;
+}
+
+.uptown_header_slider .header_slider_box3 {
+  background: url('../images/header-slider-img3.jpg');
+  background-size: cover;
+}
+
+.header_slider_box .padding-left-80 {
+  padding-left: 80px;
+}
+
+.header_slider_box .header-slider-btn {
+  background: var(--u_gold_color);
+  transition: 0.3s;
+  height: 40px;
+}
+
+.header_slider_box .header-slider-btn:hover {
+  background: transparent;
+}
+
+.header_slider_box .header-slider-contact-icon {
+  border: 3px solid white;
+  height: 67px;
+  width: 67px;
+}
+
+.header_slider_box .header-left-border {
+  border-left: 1px solid white;
+}
+
+.uptown_offcanvas .offcanvas{
+  font-family: 'Be Vietnam Pro', sans-serif;
+  max-height: 435px;
+  max-width: 290px;
+  overflow-y: auto;
+}
+
+.offcanvas-li {
+  box-shadow: inset 0 -1px #ebebeb;
+  padding: 12px 0px 12px 18px;
+}
+
+.offcanvas-details-tab {
+  box-shadow: inset 0 -1px #ebebeb;
+  padding: 12px 0px 12px 18px;
+}
+
+.offcanvas-details-arrow {
+  border: 1px solid #ebebeb;
+  width: 48px;
+}
+
+
+.second-offcanvas {
+  left: -100%;
+  transition: 0.5s;
+}
+
+.second-offcanvas-show {
+  left: 0;
+}
+
+.why-choose-us-content {
+  display: none;
+}
+
+.floor-plan-content {
+  display: none;
+}
+
+
+.uptown-skylla-footer .footer-background-image {
+  background: url('../images/footer-01.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.uptown-skylla-footer .footer-top-part {
+  padding: 50px 0px;
+  border-bottom: 1px solid #fff3;
+}
+
+.uptown-skylla-footer .footer-top-part .get-in-touch {
+  margin-bottom: 70px;
+}
+
+.uptown-skylla-footer .footer-top-part .follow-us-icons {
+  transition: 0.3s;
+  font-size: 22px;
+}
+
+.uptown-skylla-footer .footer-top-part .follow-us-icons:hover {
+  color: var(--u_gold_color) !important;
+}
+
+.uptown-skylla-footer .footer-bottom-part {
+  background: var(--u_footer_color_bg);
+  padding-top: 50px;
+}
+
+.uptown-skylla-footer .footer-bottom-part a {
+  transition: 0.3s;
+}
+
+.uptown-skylla-footer .footer-bottom-part a:hover {
+  color: var(--u_gold_color);
+}
+
+.our-offering-image img{
+  min-height: 280px;
+  max-height: 280px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* home-page-video-section */
+
+.home-video-section {
+  padding: 0px 0px 40px 0px;
+}
+
+.video-section-row  {
+  background: url('../images/bg1-h1.jpg');
+  background-size: cover;
+  padding: 70px 0px;
+}
+
+.video-border {
+  position: relative;
+}
+
+.video-border::after {
+   content: '';
+   display: block;
+   width: 100px;
+   height: 2px;
+   transform: translateY(20px);
+   background: var(--u_gold_color);
+}
+
+
+/* home-page-video-section */
+
+/* goal-section */
+
+.goal-section {
+  padding: 60px 0px;
+}
+
+/* goal-section */
+
+/* competitive-advantages-section */
+
+.competitive-advantages-section {
+  padding: 80px 0px;
+}
+.competitive-border {
+  border-right: 1px solid var(--u_gold_color);
+}
+
+.ontime-bar {
+  height: 20px;
+  border-radius: 2px;
+}
+
+.ontime-bar-overlay {
+  background: var(--green-label);
+  transition: 1s;
+  width: 0%;
+}
+
+.completion-bar {
+  height: 20px;
+  border-radius: 2px;
+}
+
+.completion-bar-overlay {
+  width: 0%;
+  transition: 1s;
+  background: var(--steel-blue-label);
+}
+
+/* competitive-advantages-section */
+
+.download-brochure-btn {
+  background-image: linear-gradient(315deg,var(--u_base_color) 0%,#173e62 74%);
+  box-shadow: 0 25px 50px 0px rgb(32 18 18/50%);
+  padding: 16px 40px;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 1200px) {
+  .navbar-tabs li a {
+    font-size: 14px !important;
+  }
+  
+  .responsive_navbar {
+    background: var(--u_base_color);
+    padding: 15px;
+  }
+  
+  .responsive_navbar .logo-image img {
+    width: 58px;
+    height: 70px;
+  }
+  
+}
+
+@media (max-width: 991px) {
+
+  .competitive-border {
+    border: 0;
+  }
+  
+  .competitive-advantages-section {
+    padding: 20px 0px;
+  }
+  
+  .goal-section {
+    padding: 40px 0px;
+  }
+  
+  .padding-left-80 {
+    padding-left: 20px !important;
+  }
+  
+  .uptown_header_slider .header-left-border {
+    border-left: 0 !important;
+  }
+  
+  .get-in-touch {
+    margin-bottom: 30px !important;
+  }
+  
+  .uptown_header_slider {
+    margin-bottom: 40px;
+  }
+
+  .making-living-spaces {
+    margin-bottom: 80px;
+  }
+  
+  .uptown-who-we-are-section {
+    padding-top: 20px !important;
+    padding-bottom: 60px;
+  }
+
+  .about-uptown-section-row {
+    background-repeat: repeat !important;
+  }
+  
+  .about-uptown-section .about-us-image {
+    max-width: 85% !important;
+  }
+  
+  .home-demo .item {
+    background: #ff3f4d;
+  }
+  
+  .home-demo h2 {
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 300;
+  }
+  
+  
+}
+
+.uptown-who-we-are-section .who-we-are-numbers {
+  font-size: 99px;
+}
+
+.uptown-who-we-are-section {
+  padding-top: 140px;
+  padding-bottom: 80px;
+}
+
+.about-uptown-section {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.about-uptown-section .enquire-button {
+  background: var(--u_button_label_1);
+  padding: 12px 23px;
+}
+
+.about-uptown-section .enquire-button:active {
+  background: var(--u_button_label_1);
+}
+
+.uptown-quick-section {
+  padding: 60px 0px;
+}
+
+.uptown-quick-section .quick-facts-cards-cols:nth-child(odd) .quick-facts-cards {
+  background: var(--u_light_gray);
+}
+
+.uptown-quick-section .quick-facts-cards-cols .quick-facts-cards {
+  padding: 10px;
+}
+
+.uptown-our-offering-section {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.uptown-our-offering-section .offering-border-bottom {
+  border-bottom: 2px solid var(--u_gold_color);
+}
+
+.uptown-our-offering-section .our-offering-card {
+  box-shadow: 0 7px 35px 0 #00000012;
+}
+
+.uptown-our-offering-section .our-offering-card .our-offering-details {
+  padding: 20px 40px 0px 40px;
+}
+
+.uptown-our-offering-section .our-offering-card .our-offering-details h4 a {
+  transition: 0.3s;
+}
+
+.uptown-our-offering-section .our-offering-card .our-offering-details h4 a:hover {
+  color: var(--u_gold_color) !important;
+}
+
+.uptown-our-offering-section .our-offering-card .our-offering-details ul li:last-child {
+  border-bottom: 0 !important;
+}
+
+.uptown-our-offering-section .our-offering-card .card-footer ul>li {
+  border-bottom: 1px solid #0000000d;
+}
+
+.uptown-our-offering-section .our-offering-card .our-offering-image .our-offering-overlay {
+  opacity: 0;
+  transition: 0.5s;
+  background: rgba(23, 62, 98, 0.2);
+  z-index: 1;
+}
+
+.uptown-our-offering-section .our-offering-card .our-offering-image {
+  overflow: hidden;
+}
+
+.uptown-our-offering-section .our-offering-card .our-offering-image img {
+  transition: 0.5s;
+}
+
+.uptown-our-offering-section .our-offering-card:hover .our-offering-image .our-offering-overlay {
+  opacity: 1;
+}
+
+.uptown-our-offering-section .our-offering-card:hover .our-offering-image img {
+  transform: scale(1.05);
+}
+
+.uptown-project-highlight-section {
+  padding: 70px 0px 30px 0px;
+}
+
+.about-uptown-section-row {
+  background: url('https://uptownskylla.in/wp-content/uploads/2019/11/bg-setion.jpg');
+  background-position: 350px,0px;
+  background-repeat:repeat-y;
+}
+
+.making-living-spaces {
+  padding: 140px 0px;
+}
+
+.video-btn {
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--u_gold_color);
+  line-height: 45px;
+  color: #bba386;
+  z-index: 1;
+  transition: 0.3s;
+}
+
+
+.video-btn:hover {
+  border: 2px solid #fff !important;
+  color: #fff;
+}
+
+.home-video-section .btn-close {
+  position: absolute;
+  top: -8%;
+  right: 0;
+  color: white;
+  background: none;
+  line-height: 1;
+  font-size: 20px;
+}
+
+.home-video-section button:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
+
+.home-video-section .modal-video {
+  max-height: 500px;
+}
+
+

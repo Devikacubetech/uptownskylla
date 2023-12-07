@@ -1,0 +1,117 @@
+.where-happiness-live-info-icon {
+  font-size: 100px;
+}
+
+.where-happiness-live-hover h4,
+.where-happiness-live-hover i {
+  transition: 0.3s;
+}
+.where-happiness-live-hover:hover h4,
+.where-happiness-live-hover:hover i {
+  color: var(--u_gold_color) !important;
+}
+
+.our-delivered-projects-section .row div,
+our-delivered-projects-section .row div h3 {
+  transition: 0.3s;
+}
+
+.our-delivered-projects-section .row .card:hover {
+  box-shadow: 0px 0px 10px 2px #808080;
+}
+
+.our-delivered-projects-section .row div:hover h3 {
+  color: var(--u_gold_color);
+}
+
+.bhk2-header {
+  background: url('../images/2-BHK-1.jpg');
+  background-size: cover;
+}
+
+.bhkexectutive3-header {
+  background: url('../images/3-BHK-Executive.jpg');
+  background-size: cover;
+}
+
+.bhkpremium3-header {
+  background: url('../images/3-BHK-Premium.jpg');
+  background-size: cover;
+}
+
+.bhkgrande3-header {
+  background: url('../images/3-BHK-Grande.jpg');
+  background-size: cover;
+}
+
+.bhkservantroom3-header {
+  background: url('../images/3-BHK-SERVANT-ROOM.jpg');
+  background-size: cover;
+}
+
+.bhkservantroom4-header {
+  background: url('../images/4-BHK-SERVANT-ROOM-1.jpg');
+  background-size: cover;
+}
+
+.technicalspecifications-header {
+  background: url('../images/Technical-Specifications-scaled.jpg');
+  background-size: cover;
+}
+
+.flats-mid-section-nav {
+  box-shadow: 0 7px 35px 0 rgba(0, 0, 0, 0.07);
+  background-color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0 7px 35px 0 rgba(0, 0, 0, 0.07);
+  margin-top: -40px;
+  z-index: 8;
+  left: 50%;
+  margin-bottom: 40px;
+}
+
+.flats-mid-section-nav a:hover {
+  color: var(--u_gold_color);
+}
+
+.flats-mid-card {
+  border: 3px solid var(--u_gold_color);
+  transition: 0.3s;
+}
+
+.flats-mid-card:hover {
+  transform: translateY(-10px);
+}
+
+.flats-enquiry-input {
+  padding: 12px 22px;
+  background: #f5f5f5;
+  height: 54px;
+}
+
+.flats-enquiry-input:active,.flats-enquiry-input:focus {
+  border: 0;
+  outline: 0;
+}
+
+
+.flats-brochure-btn {
+  border: 1px dashed black;
+  padding: 22px 36px;
+  background-color: transparent;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.flats-brochure-btn:hover {
+  background: var(--u_gold_color);
+  color: white;
+  border-color: white;
+}
+
+.bhk3-grande-img {
+  max-height: 400px;
+  width: 100%;
+}
+
+

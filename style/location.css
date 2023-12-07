@@ -1,0 +1,18 @@
+.location-header {
+    background: url('../images/07-Location-header-scaled.jpg');
+    background-size: cover;
+}
+
+.location-iframe {
+    max-height: 500px;
+    width: 100%;
+}
+
+.location-drive-cards {
+   border: 1px solid var(--u_gold_color); 
+   padding: 1px;
+}
+
+.location-drive-cards ul li span:hover {
+    color: var(--u_gold_color);
+}

@@ -1,0 +1,217 @@
+.home-page-address {
+  border-bottom: 1px solid #092843;
+  transition: 0.2s;
+}
+
+.home-page-address:hover {
+  color: var(--u_gold_color);
+  border-bottom: 1px solid var(--u_gold_color);
+}
+
+.site-header {
+  background: url('../images/header_slider.jpg');
+  background-size: cover;
+}
+
+.club-skylla-header {
+  background: url('../images/Club-Skylla-scaled.jpg');
+  background-size: cover;
+}
+
+.price-list-header {
+  background: url('../images/Price-List.jpg');
+  background-size: cover;
+}
+
+.price-list-mid-section table td {
+  border: 1px solid var(--u_base_color);
+}
+
+.price-list-mid-section table td button {
+  background: #000000;
+}
+
+.home-loans-images {
+  background: white;
+  box-shadow: 0px 0px 10px 2px #e7e7e7;
+}
+
+.gallery-header {
+  background: url(../images/Gallery-scaled.jpg);
+  background-size: cover;
+}
+
+.compliances-header {
+  background: url('../images/compliance-header-scaled.jpg');
+  background-size: cover;
+}
+
+.compliances-mid-section {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contact-header {
+  background: url('../images/Why-choose-us-header-scaled.jpg');
+  background-size: cover;
+}
+
+.contact-info:hover {
+  color: var(--u_gold_color);
+}
+
+.contact-info {
+  height: 50px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contact-input:active,
+.contact-input:focus,
+.contact-textarea:active,
+.contact-textarea:focus {
+  border: 1px solid var(--u_gold_color);
+  outline: 0;
+}
+
+.contact-input {
+  border: 1px solid #34373a;
+  border-radius: 2px;
+  height: 45px;
+}
+
+.contact-textarea {
+  border: 1px solid #34373a;
+  border-radius: 2px;
+}
+.contact-send-btn {
+  transition: 0.3s;
+}
+.contact-send-btn:hover {
+  background: var(--dark-gold);
+}
+
+.brochure-input {
+  border: 1px solid var(--border-color-light-gray);
+  padding: 8px 18px;
+  height: 45px;
+  border-radius: 3px;
+}
+
+.brochure-modal .iti {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 8px 18px;
+  border: 1px solid var(--border-color-light-gray);
+}
+
+.country-select-input {
+  border: 0;
+  outline: 0;
+}
+
+.brochure-modal .iti__country-list {
+  max-width: 467px;
+  position: static;
+}
+
+.brochure-input:active,
+.brochure-input:focus,
+.brochure-input:focus-visible {
+  border: 1px solid var(--u_gold_color);
+  outline: 0;
+}
+
+.brochure-textarea {
+  resize: none;
+  height: auto;
+}
+
+.brochure-modal .modal-content {
+  box-shadow: 0 15px 40px #e3e3e3;
+}
+
+.side-icons-div {
+  width: 60px;
+  height: fit-content;
+  right: 0;
+  z-index: 9;
+  top: 40%;
+}
+
+.side-icons-div-border {
+  padding: 1px;
+  border: 1px solid #d9d9d9;
+  z-index: -1;
+}
+
+.side-icons img {
+  transition: 0.5s;
+}
+
+.side-icons:hover img {
+  transform: rotate(360deg);
+}
+
+.side-icons-text {
+  top: 50%;
+  transform: translateY(-50%) scaleX(0);
+  right: 40%;
+  border-radius: 20px 5px 5px 20px;
+  transform-origin: right;
+}
+
+.side-icons:hover .side-icons-text {
+  right: 50%;
+  transform: translateY(-50%) scaleX(1);
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.active-page {
+  color: var(--u_gold_color);
+}
+
+.bottom-to-top-btn {
+  background: var(--u_gold_color);
+  bottom: 2%;
+  right: 1%;
+  display: none;
+}
+
+.offcanvas-close-btn {
+  z-index: 999;
+  background-image: url('../images/cross-small-svgrepo-com.svg');
+  opacity: 0.7;
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+}
+
+.offcanvas-close-btn:active,.offcanvas-close-btn:focus ,.offcanvas-close-btn:focus-visible,.offcanvas-close-btn:target{
+  box-shadow: none;
+  outline: 0;
+}
+
+/* .gallery img {
+  max-height: 400px;
+} */
+
+.responsive-bottom-contact {
+  z-index: 9;
+}
+
+@media (max-width: 991px) {
+  .walkthrought-section iframe {
+    width: 95% !important;
+  }
+
+  .bottom-to-top-btn {
+    bottom: 5%;
+    z-index: 9;
+  }
+}

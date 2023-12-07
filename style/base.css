@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+
+* {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.raleWay {
+  font-family: 'Raleway', sans-serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.mulish {
+  font-family: 'Mulish', sans-serif;
+}
+
+.dm-sans-sarif {
+  font-family: 'DM Serif Display', serif;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.fw-200 {
+  font-weight: 200;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-11 {
+  font-size: 11px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.fs-23 {
+  font-size: 23px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+
+
+.fs-26 {
+  font-size: 26px;
+}
+
+.fs-28 {
+  font-size: 28px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-36 {
+  font-size: 36px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fs-42 {
+  font-size: 42px;
+}
+
+.fs-60 {
+  font-size: 60px;
+}
+
+.fs-50 {
+  font-size: 50px;
+}
+
+.fs-53 {
+  font-size: 53px;
+}
+
+.fs-57 {
+  font-size: 57px;
+}
+
+.fs-62 {
+  font-size: 62px;
+}
+
+
+
+.lh-14 {
+  line-height: 14px;
+}
+
+.lh-16 {
+  line-height: 16px;
+}
+
+.lh-22 {
+  line-height: 22px;
+}
+
+.lh-20 {
+  line-height: 20px;
+}
+
+.lh-28 {
+  line-height: 28px;
+}
+
+.lh-24 {
+  line-height: 24px;
+}
+.lh-29 {
+  line-height: 29px;
+}
+
+.lh-32 {
+  line-height: 32px;
+}
+
+.lh-40 {
+  line-height: 40px;
+}
+
+.lh-50 {
+  line-height: 50px;
+}
+
+.p-15 {
+  padding: 15px 50px;
+}
+
+.pt-100 {
+  padding: 100px 0px 30px 0px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.my-30 {
+  margin: 30px 0px;
+}
+
+.py-70 {
+  padding: 70px 0px;
+}
+
+.base-color {
+  color: var(--base-color);
+}
+
+.base-color2 {
+  color: #f0ad4e;
+}
+
+.letter-spacing-1 {
+  letter-spacing: -1px;
+}
+
+.letter-spacing-4 {
+  letter-spacing: 4px;
+}
+
+.letter-spacing-3 {
+  letter-spacing: 3px;
+}
+
+.line-clamp-2 {
+  -webkit-line-clamp: 2;
+  line-clamp: 2 ;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.common-header {
+  height: 82vh;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #173e62;
+  border-radius: 2px;
+}
+
+
+@media (max-width: 991px) {
+
+  .common-header {
+    height: 58vh;
+  }
+
+  .py-70 {
+    padding: 30px 0px;
+  }
+
+  .res-fs-10 {
+    font-size: 10px;
+  }
+
+  .res-fs-12 {
+    font-size: 12px;
+  }
+  
+  .res-fs-14 {
+    font-size: 14px;
+  }
+
+  .res-fs-16 {
+    font-size: 16px;
+  }
+
+  .res-fs-18 {
+    font-size: 18px;
+  }
+
+
+  .res-fs-25 {
+    font-size: 25px;
+  }
+
+  .res-fs-30 {
+    font-size: 30px;
+  }
+
+  .res-fs-40 {
+    font-size: 40px;
+  }
+
+  .res-fs-50 {
+    font-size: 50px;
+  }
+
+  .res-fs-30 {
+    font-size: 30px;
+  }
+
+  .res-fs-23 {
+    font-size: 23px;
+  }
+
+  .res-p-15 {
+    padding: 15px;
+  }
+  .lh-50 {
+    line-height: 42px;
+  }
+  .mb-40 {
+    margin-bottom: 20px;
+  }
+
+  .mb-50 {
+    margin-bottom: 25px;
+  }
+  .lh-40 {
+    line-height: 30px;
+  }
+
+}
